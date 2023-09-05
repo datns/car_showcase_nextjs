@@ -13,8 +13,7 @@ export default async function Home({ searchParams }) {
     });
     const isDataEmpty = !Array.isArray(allCars) || allCars.length < 1 || !allCars;
 
-    console.log('allCars', allCars);
-  return (
+    return (
     <main className="overflow-hidden">
         <Hero />
 
